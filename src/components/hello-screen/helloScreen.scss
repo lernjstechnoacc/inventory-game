@@ -1,0 +1,25 @@
+@import '../../styles/big-btn.scss';
+
+.HelloScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    width: 40%;
+    min-width: 600px;
+    margin: 2rem;
+}
+.frame-modal{
+    background: rgba(41, 37, 66, 0.01);
+    border: 0.7rem dashed #CF8047;
+}
+.window-modal{
+    margin: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #da7329;
+    background: #232322;
+    box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+}

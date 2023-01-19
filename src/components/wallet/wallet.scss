@@ -1,0 +1,20 @@
+.Wallet{
+    width: 350px;
+    min-height: 200px;
+    background: linear-gradient(180deg, #252525 0%, rgba(37, 37, 37, 0) 100%);
+    box-shadow: 0px 0px 30px 2px #000000;
+    border-radius: 10px;
+    
+}
+.wallet-block{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.amount-coin{
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.56);
+    border-radius: 5px;
+}

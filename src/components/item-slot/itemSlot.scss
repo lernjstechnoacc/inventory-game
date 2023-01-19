@@ -1,0 +1,27 @@
+li{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.can-buy{
+    img{
+        border: 1px solid orange;
+    }
+    div span {
+        color: orange;
+    }
+}
+.select{
+    box-shadow: 0px 0px 10px 0px rgba(188, 248, 148, 0.91);
+}
+li img{
+    width: 50px;
+    height: 50px;
+}
+.block{
+    img{
+        filter: blur(1px);
+        filter: brightness(30%);
+        opacity: 0.9;
+    }
+}

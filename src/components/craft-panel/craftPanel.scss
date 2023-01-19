@@ -1,0 +1,45 @@
+.CraftPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 150px;
+    ul{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+}
+.craft-window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 10px;
+    width: 90%;
+    min-height: 150px;
+    background: #232322;
+    box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+}
+.craft-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.craft-item{
+    box-shadow: 0px 0px 10px 0px rgba(188, 248, 148, 0.91);
+}
+.arrow{
+    margin-bottom: 5px;
+}
+h3{
+    filter: blur(2px);
+    filter: brightness(50%);
+}
+
+.focus{
+    background: linear-gradient(180deg, #53a059 2.21%, #232322 90%);
+    color: #232322;
+}

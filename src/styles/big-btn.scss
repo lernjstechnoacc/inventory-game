@@ -1,0 +1,23 @@
+.big-btn {
+	background:linear-gradient(to bottom, #9c5203 5%, #9b7504 100%);
+	background-color:#ff8400;
+	border-radius:12px;
+	border:1px solid #ab3b19;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight:bold;
+	padding:16px 58px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.big-btn:hover {
+	background:linear-gradient(to bottom, #cc9e13 5%, #cc6d07 100%);
+	background-color:#f5c536;
+}
+.big-btn:active {
+	position:relative;
+	top:1px;
+}
